@@ -26,3 +26,6 @@ LOGIC:
     is something in the list.
 - Clicking the circle will bring a checkmark, crossout the
     todo, set to "complete" and subtract number of items.
+
+NOTE: node_modules are too large to upload directly. The packages
+needs are express, nodemon, ejs
