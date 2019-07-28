@@ -3,12 +3,15 @@ This is a todo list built on HTML, CSS, and JS.
 The purpose is to practice building a project without
 using any JS frameworks except Node.js to create a
 server, and Express.js for templating.
+==================================================================
 
 DESIGN:
+==================================================================
 - There will be a title named 'todo.'
 - There will be a input field to enter in text.
 
 LOGIC:
+==================================================================
 - A user will be able to click on the input field.
 - A user will be able to enter a task into the field.
 - The field will then append a todo beneth it.
@@ -26,6 +29,12 @@ LOGIC:
     is something in the list.
 - Clicking the circle will bring a checkmark, crossout the
     todo, set to "complete" and subtract number of items.
+
+V. 1.0.0:
+==================================================================
+- Added the project to github.
+- The next step is to refactor the todo.js into
+    todoModel, todoView, todoController (MVC).
 
 NOTE: node_modules are too large to upload directly. The packages
 needs are express, nodemon, ejs
